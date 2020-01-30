@@ -171,6 +171,10 @@ const PageStyle = styled.div`
     /* list-style-position: inside; */
     /* margin-bottom: 5px; */
   }
+  @media (max-width: 768px) {
+    /* for displays larger than 768px */
+    display: none;
+  }
 `
 
 export default PageStyle

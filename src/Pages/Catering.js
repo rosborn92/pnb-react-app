@@ -1,6 +1,7 @@
 import React from 'react'
 import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
+import SmCatering from './SmCatering'
 
 const Catering = () => (
   <>
@@ -72,7 +73,7 @@ const Catering = () => (
             </span>
           </div>
           <div className="section">
-            <img src="catering.jpeg" />
+            <img src="catering.jpg" />
           </div>
 
         </div>
@@ -182,6 +183,7 @@ const Catering = () => (
       </div>
 
     </PageStyle>
+    <SmCatering/>
   </>
 )
 

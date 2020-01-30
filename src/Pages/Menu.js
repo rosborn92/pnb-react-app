@@ -1,5 +1,5 @@
 import React from 'react'
-import PageStyle from '../PageStyle.styles'
+import styled from 'styled-components'
 import Jumbotron from '../Jumbotron.styles'
 
 const Menu = () => (
@@ -15,3 +15,16 @@ const Menu = () => (
 )
 
 export default Menu
+
+
+
+const PageStyle = styled.div`
+  padding: 30px 0;
+  text-align: center;
+
+  img {
+    max-width: 600px;
+    margin: 30px auto;
+    width: 80%;
+  }
+`

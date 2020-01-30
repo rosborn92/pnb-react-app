@@ -17,13 +17,29 @@ import FoodTruck from './Pages/FoodTruck'
 import About from './Pages/About'
 import GlobalStyle from './GlobalStyle'
 
+// import Navbar from './MobileNav/Navbar'
+
 class Pnb extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      navOpen: false
+    }
+  }
+
+    handleNav = () => {
+      this.setState({navOpen: !this.state.navOpen})
+    }
+
   render () {
+
     return (
       <GlobalStyle>
         <Router>
-          <NavBar />
-
+          <NavBar
+            navOpen={this.state.navOpen}
+            handleNav={this.handleNav}
+          />
           <Route
             exact path="/"
             render = {() => {

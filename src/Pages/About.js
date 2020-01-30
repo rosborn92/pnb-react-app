@@ -1,6 +1,7 @@
 import React from 'react'
 import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
+import SmAbout from '../About/SmAbout'
 
 const About = () => (
   <>
@@ -43,6 +44,7 @@ const About = () => (
         </div>
       </div>
     </PageStyle>
+    <SmAbout />
   </>
 )
 
