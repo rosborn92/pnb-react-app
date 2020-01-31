@@ -1,7 +1,7 @@
 import React from 'react'
 import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
-import SmCatering from './SmCatering'
+import styled from 'styled-components'
 
 const Catering = () => (
   <>
@@ -23,17 +23,26 @@ const Catering = () => (
       </div>
       <br />
       <h5 className="banner"> CATERED BURGER PARTY </h5>
+      <div className="info2">
+        <span>
+          $32.00 / person
+        </span>
+        <span>
+          50 person minimum
+        </span>
+      </div>
       <div className="box">
         <div className="wideColumn">
+          <div className="fittedSection">
 
           <h5 className="borderedHeader">
-          I. Cheeseburgers
+            I. Cheeseburgers
           </h5>
           <ul>
             <li>Vegetarian & Turkey available upon request</li>
           </ul>
           <h5 className="borderedFull">
-          II. 3 Side Dishes:
+            II. 3 Side Dishes:
           </h5>
           <ul>
             <li>French Fries</li>
@@ -45,7 +54,7 @@ const Catering = () => (
             <li>Chili</li>
           </ul>
           <h5 className="borderedFull">
-          III. Dessert
+            III. Dessert
           </h5>
           <ul>
             <li>Assorted Pies & Vanilla Ice Cream</li>
@@ -63,6 +72,7 @@ const Catering = () => (
             <li>Coffee</li>
           </ul>
         </div>
+        </div>
         <div className="slimCateringColumn">
           <div>
             <span>
@@ -75,14 +85,23 @@ const Catering = () => (
           <div className="section">
             <img src="catering.jpg" />
           </div>
-
         </div>
       </div>
-
+      <div className="imgSection">
+        <img src="catering.jpg" />
+      </div>
       <h5 className="banner"> CATERED BBQ PARTY </h5>
+      <div className="info2">
+        <span>
+          $42.00 / person
+        </span>
+        <span>
+          50 person minimum
+        </span>
+      </div>
       <div className="box">
         <div className="wideColumn">
-
+        <div className="fittedSection">
           <h5 className="borderedHeader">
               I. Choice of 2 Meats:
           </h5>
@@ -122,7 +141,7 @@ const Catering = () => (
             <li>Assorted Pies & Vanilla Ice Cream</li>
           </ul>
         </div>
-
+        </div>
         <div className="slimCateringColumn" >
           <div>
             <span>
@@ -135,15 +154,16 @@ const Catering = () => (
           <div className="section">
             <img src="cateringPies.jpg" />
           </div>
-
         </div>
-
+      </div>
+      <div className="imgSection">
+        <img src="cateringPies.jpg" />
       </div>
       <h5 className="banner"> APPETIZERS </h5>
       <span> prices vary </span>
       <div className="box">
         <div className="splitColumn">
-          <div className="section">
+          <div className="fittedSection">
             <ul>
               <li>Fresh Fruit</li>
               <li>Fresh Vegetables & Dip</li>
@@ -162,8 +182,40 @@ const Catering = () => (
           </div>
         </div>
         <div className="splitColumn">
-          <div className="section">
+          <div className="fittedSection">
             <ul>
+              <li>Assorted Gourmet Quesadillas</li>
+              <li>Potstickers</li>
+              <li>Mini Tostadas</li>
+              <li>Shredded Beef or Chicken Taquitos with Fresh Salsa</li>
+              <li>Fresh Asparagus Wrapped with Proscuitto</li>
+              <li>Poached Salmon</li>
+              <li>Mashed Potato Bar</li>
+              <li>Skewered Meats with Dipping Sauces</li>
+              <li>Chicken Wings & Drummettes (Spicy or BBQ)</li>
+              <li>Meatballs (Swedish, BBQ, or Oriental)</li>
+              <li>Pinwheel Sandwiches</li>
+              <li>Jr. Cheeseburgers (Sliders)</li>
+              <li>Small Deli Sandwiches on Rolls</li>
+            </ul>
+          </div>
+        </div>
+        <div className="longColumn">
+          <div className="fittedSection">
+            <ul>
+              <li>Fresh Fruit</li>
+              <li>Fresh Vegetables & Dip</li>
+              <li>Spanokopita</li>
+              <li>Assorted Cheeses</li>
+              <li>Filo Wrapped Stuffed Baked Brie with Crackers</li>
+              <li>Spinach Dip in Bread Terrene</li>
+              <li>Flaky Mushroom Tartlets</li>
+              <li>Stuffed Cherry Tomatoes</li>
+              <li>Blue Cheese Biscuits</li>
+              <li>Layered Mexican Bean Dip with Chips and Salsa (Guacamole Optional)</li>
+              <li>Stuffed Mushroom Caps (Crab or Bacon & Cheese)</li>
+              <li>Deviled Eggs</li>
+              <li>Antipasto Platter (olives,peppers, cheese, Italian meats)</li>
               <li>Assorted Gourmet Quesadillas</li>
               <li>Potstickers</li>
               <li>Mini Tostadas</li>
@@ -183,7 +235,6 @@ const Catering = () => (
       </div>
 
     </PageStyle>
-    <SmCatering/>
   </>
 )
 

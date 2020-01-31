@@ -17,7 +17,6 @@ import FoodTruck from './Pages/FoodTruck'
 import About from './Pages/About'
 import GlobalStyle from './GlobalStyle'
 
-// import Navbar from './MobileNav/Navbar'
 
 class Pnb extends React.Component {
   constructor (props) {
