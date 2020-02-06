@@ -6,7 +6,7 @@ const About = () => (
   <>
     <Jumbotron src="outsideShort.jpg" alt="Street View of PNB" />
     <PageStyle>
-      <h4 className="pgHeader"> HISTORY </h4>
+      <h2> HISTORY </h2>
       <div className="box" >
         <div className="wideColumn" >
           <br />

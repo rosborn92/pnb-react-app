@@ -5,7 +5,7 @@ import PhotoBox from '../PhotoBox/PhotoBox'
 const Home = () => (
   <>
     <StyledHome>
-      <img src="logo.png" alt="View of Restaurant Counter"/>
+      <img src="logo.png" alt=""/>
     </StyledHome>
     <PhotoBox />
   </>

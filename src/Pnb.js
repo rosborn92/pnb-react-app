@@ -3,8 +3,6 @@ import {
   BrowserRouter as Router,
   Route
   } from 'react-router-dom'
-import styled from 'styled-components'
-// import PropTypes from 'prop-types'
 
 import NavBar from './NavBar/NavBar'
 import Catering from './Pages/Catering'

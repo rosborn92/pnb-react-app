@@ -7,7 +7,7 @@ const SmFooter = () => {
   return(
     <StyledSmFooter>
       <div className="section">
-        <img className="logo" src="logo.png" />
+        <img className="logo" src="logo.png" alt="" />
         <div className="links" >
           <InstaLink />
           <TwitterLink />

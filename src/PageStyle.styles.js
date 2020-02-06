@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 const PageStyle = styled.div`
-  /* font-family: 'Roboto Mono', monospace; */
   margin: 0;
   width: 100%;
   background-color: #BECCDA;
@@ -11,13 +10,14 @@ const PageStyle = styled.div`
 
   .box {
     display: flex;
-    padding: 2%;
+    padding: 5%;
     justify-content: space-between;
   }
   .info {
     text-align: center;
     width: 75%;
-    margin: 0 auto;
+    margin: 80px auto;
+
   }
   .info2 {
     text-align: center;
@@ -27,33 +27,17 @@ const PageStyle = styled.div`
   .wideColumn {
     margin: 15px auto;
     padding: 2%;
-    width: 90%;
+    width: 80%;
     background-color: #eff2f6;
-    /* width: 57%;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    margin: 5px 15px 5px 0; */
   }
 
   .wideColumnRt {
     margin: 15px auto;
     padding: 2%;
-    width: 90%;
+    width: 80%;
     max-width: 445px;
-    /* text-align: left; */
-    /* max-width: 562px; */
-    /* min-width: 460px; */
     background-color: #eff2f6;
-    /* object-fit: cover; */
   }
-
-    /* justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
-    width: 57%;
-    margin: 5px 0 5px 15px;
-     */
   .slimColumn {
     width: 41%;
     display: flex;
@@ -76,14 +60,15 @@ const PageStyle = styled.div`
 
   .cardBox {
     display: flex;
+    padding: 5%;
     margin: 0;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
   .videoCard {
-    width: 570px;
-    height: 325px;
+    width: 350px;
+    height: 200px;
     margin: 20px 10px;
   }
 
@@ -102,7 +87,7 @@ const PageStyle = styled.div`
   }
   .lineBreak {
     height: 2px;
-    margin: 2px auto;
+    margin: 10px auto;
     border-bottom: 2px solid #053A92;
     width: 70%;
   }
@@ -111,12 +96,11 @@ const PageStyle = styled.div`
     padding: 2%;
     text-align: left;
     background-color: #eff2f6;
-    /* object-fit: cover; */
   }
   .longColumn {
       margin: 15px auto;
       padding: 2%;
-      width: 90%;
+      width: 80%;
       background-color: #eff2f6;
   }
 
@@ -125,10 +109,8 @@ const PageStyle = styled.div`
     padding: 2%;
     width: 90%;
     background-color: #eff2f6;
-    /* object-fit: cover; */
   }
   .text {
-    /* width: fit-content; */
     display: block;
   }
   .fittedSection {
@@ -149,7 +131,6 @@ const PageStyle = styled.div`
     text-align: center;
     &.borderedFull {
       border-bottom: 2px solid;
-      /* border-top: 2px solid; */
       width: fit-content;
       margin: 20px auto;
     }
@@ -167,6 +148,23 @@ const PageStyle = styled.div`
       width: fit-content;
       margin: 0 auto 20px auto;
     }
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    /* width: fit-content; */
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin: auto;
+    background-color: #eff2f6;
+  }
+  h3 {
+    font-size: 26px;
+    border-bottom: 2px solid;
+    /* border-top: 2px solid; */
+    margin: 30px auto;
+    width: fit-content;
   }
   h4 {
     font-size: 28px;
@@ -201,7 +199,6 @@ const PageStyle = styled.div`
       margin: 20px 0;
     }
     &.menuItem{
-      /* display: inline; */
       text-align: right;
     }
   }
@@ -221,12 +218,15 @@ const PageStyle = styled.div`
     .slimCateringColumn {
       display: none;
     }
-    /* display: none; */
   }
   @media (min-width: 769px) {
     /* for displays smaller than 768px */
     ul {
       margin: 0;
+    }
+    .videoCard {
+      width: 570px;
+      height: 325px;
     }
     .text {
       display: -webkit-inline-box;
@@ -235,8 +235,7 @@ const PageStyle = styled.div`
       justify-content: space-evenly;
       display: flex;
       flex-direction: column;
-      /* width: 57%; */
-      max-width: none;
+      max-width: 800px;
       margin: 5px 0 5px 15px;
     }
     .section {
@@ -246,8 +245,6 @@ const PageStyle = styled.div`
       justify-content: space-evenly;
       display: flex;
       flex-direction: column;
-      /* width: 57%; */
-      /* margin: 5px 0 5px 15px; */
     }
     .wideColumn {
       width: 57%;
@@ -256,6 +253,7 @@ const PageStyle = styled.div`
       flex-direction: column;
       margin: 5px 15px 5px 0;
     }
+
     .info2,
     .longColumn,
     .imgSection {

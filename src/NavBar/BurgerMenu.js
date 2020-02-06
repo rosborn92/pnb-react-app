@@ -1,6 +1,4 @@
-import React, {Component} from 'react';
-// import StyledNavBar from './NavBar.styles';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import styled from 'styled-components'
 
 
@@ -11,7 +9,7 @@ const BurgerMenu = (props) => {
 
         <Wrapper onClick={props.handleNav} >
           <div className={props.navOpen ? "open" : "" }>
-            <img src="closeIcon.png" />
+            <img src="closeIcon.png" alt="close nav menu icon"/>
           </div>
         </Wrapper>
 
@@ -20,7 +18,7 @@ const BurgerMenu = (props) => {
     return (
       <Wrapper onClick={props.handleNav} >
         <div className={props.navOpen ? "open" : "" }>
-          <img src="burgerIcon.png" />
+          <img src="openIcon.png" alt="open nav menu icon" />
         </div>
       </Wrapper>
     )

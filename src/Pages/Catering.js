@@ -1,28 +1,26 @@
 import React from 'react'
 import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
-import styled from 'styled-components'
 
 const Catering = () => (
   <>
     <Jumbotron src="burgerNfriesShort.jpg" alt="Plated Burger and Fries" />
     <PageStyle>
-      <h4 className="pgHeader"> CATERING </h4>
+      <h2> CATERING </h2>
       <div className="info">
         <span>
         Below are our standard and most popular menus for catered events.
         Please conctact for other options or to inquire about a catered event.
         </span>
-        <span>
+        <span style={{marginTop:"10px"}}>
         (626)795-1123
         </span>
-        <div className="lineBreak" style={{ marginTop: '5px', marginBottom: '5px' }} />
+        <div className="lineBreak" />
         <span>
           Prices include paper goods, tax, and labor. Travel outside the greater Pasadena area, certain venues, and a food truck catered event may incur an additional fee.
         </span>
       </div>
-      <br />
-      <h5 className="banner"> CATERED BURGER PARTY </h5>
+      <h3> CATERED BURGER PARTY </h3>
       <div className="info2">
         <span>
           $32.00 / person
@@ -83,14 +81,14 @@ const Catering = () => (
             </span>
           </div>
           <div className="section">
-            <img src="catering.jpg" />
+            <img src="catering.jpg" alt="PNB catered event display"/>
           </div>
         </div>
       </div>
       <div className="imgSection">
-        <img src="catering.jpg" />
+        <img src="catering.jpg" alt="PNB catered event display"/>
       </div>
-      <h5 className="banner"> CATERED BBQ PARTY </h5>
+      <h3> CATERED BBQ PARTY </h3>
       <div className="info2">
         <span>
           $42.00 / person
@@ -109,7 +107,6 @@ const Catering = () => (
             <li>BBQ Chicken</li>
             <li>Roast Tri Tip</li>
             <li>Pulled Pork</li>
-            <li>Fried Chicken</li>
           </ul>
           <h5 className="borderedFull">
               II. 3 Side Dishes:
@@ -152,14 +149,14 @@ const Catering = () => (
             </span>
           </div>
           <div className="section">
-            <img src="cateringPies.jpg" />
+            <img src="cateringPies.jpg" alt="PNB catered event dessert display" />
           </div>
         </div>
       </div>
       <div className="imgSection">
-        <img src="cateringPies.jpg" />
+        <img src="cateringPies.jpg" alt="PNB catered event dessert display" />
       </div>
-      <h5 className="banner"> APPETIZERS </h5>
+      <h3> APPETIZERS </h3>
       <span> prices vary </span>
       <div className="box">
         <div className="splitColumn">

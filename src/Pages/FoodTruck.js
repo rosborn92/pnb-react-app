@@ -6,16 +6,22 @@ const FoodTruck = () => (
   <>
     <Jumbotron src="ftBanner.jpg" alt="food truck" />
     <PageStyle>
-      <h4 className="pgHeader">FOOD TRUCK</h4>
+      <h2>FOOD TRUCK</h2>
       <div className="info">
         <span>
           You can find the PNB food truck at local events, private and public.
         </span>
+        <br />
         <span>
           For information regarding catered events with the food truck, look to our catering page.
         </span>
+        <br />
         <span>
-          For information about bringing the food truck to your event, please call the restaurant (626)795-1123.
+          For information about bringing the food truck to your event, please call the restaurant.
+        </span>
+        <br />
+        <span>
+          (626)795-1123
         </span>
       </div>
       <div className="box" >
@@ -24,14 +30,14 @@ const FoodTruck = () => (
             <img src="ftCityHall.jpeg" alt="PNB food truck in front of Pasadena City Hall" />
           </div>
           <div className="section" >
-            <img src="ftciclavia.jpg" />
+            <img src="ftciclavia.jpg" alt="PNB food truck at the LA Ciclavia event" />
             <div className="copyright">
               <span>© Carol Lightwood, </span>
               <a href="https://lacitypix.wordpress.com/2015/06/01/see-40000-bicylists-at-ciclavia-in-pasadena-wow-was-it-ever-crowded/">LA City Pix</a>
             </div>
           </div>
           <div className="section" >
-            <img src="pnbtruck.jpg" alt="food truck at Rose Parade" />
+            <img src="pnbtruck.jpg" alt="food truck at Pasadena Rose Parade" />
             <div className="copyright">
               <span>© Josh McNair, </span>
               <a href="https://californiathroughmylens.com/rose-parade-floats">CaliforniaThroughMyLens.com</a>

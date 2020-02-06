@@ -9,7 +9,7 @@ const NavBar = (props) => {
   return (
     <>
       <NavContainer>
-        <img src="logo.png" style={{width:"60px", margin:"auto auto auto 35px"}}/>
+        <img src="logo.png" alt="" style={{width:"60px", margin:"auto auto auto 35px"}}/>
           <NavLinks>
             <Link to="/">HOME</Link>
 

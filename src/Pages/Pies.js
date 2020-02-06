@@ -1,13 +1,12 @@
 import React from 'react'
 import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
-import styled from 'styled-components'
 
 const Pies = () => (
   <>
     <Jumbotron src="pies3.jpg" alt="Row of Plated Meringue Pies" />
     <PageStyle>
-      <h4 className="pgHeader"> FRESHLY BAKED PIES </h4>
+      <h2> FRESHLY BAKED PIES </h2>
       <div className="box">
         <div className="wideColumn">
         <div className="fittedSection">
@@ -53,13 +52,13 @@ const Pies = () => (
         </div>
         <div className="slimColumn">
           <div className="section">
-            <img src="coconutPie.jpg" />
+            <img src="coconutPie.jpg" alt="Whole Coconut Pie"/>
           </div>
           <div className="section">
-            <img src="pies.jpg" />
+            <img src="pies.jpg" alt="Pie case at PNB" />
           </div>
           <div className="section">
-            <img src="pie.jpg" />
+            <img src="pie.jpg" alt="Fresh Strawberry and Peach Pies"/>
           </div>
         </div>
       </div>

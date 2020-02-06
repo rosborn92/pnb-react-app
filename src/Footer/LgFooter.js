@@ -14,7 +14,7 @@ const LgFooter = () => {
           <span> (626)795-1123 </span>
         </div>
         <div className="column2">
-          <img className="logo" src="logo.png" />
+          <img className="logo" src="logo.png" alt=""/>
           <div className="links" >
             <InstaLink />
             <TwitterLink />
