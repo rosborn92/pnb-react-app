@@ -20,11 +20,15 @@ const FoodTruck = () => (
           For information about bringing the food truck to your event, please call the restaurant.
         </span>
         <br />
-        <span>
-          (626)795-1123
-        </span>
+        <div className="phone">
+          <img src="phoneIcon.png" alt=""/>
+          <a href="tel:+16267951123">
+            (626)795-1123
+          </a>
+        </div>
       </div>
       <div className="box" >
+      <div className="innerBox" >
         <div className="slimColumn" >
           <div className="section" >
             <img src="ftCityHall.jpeg" alt="PNB food truck in front of Pasadena City Hall" />
@@ -45,8 +49,7 @@ const FoodTruck = () => (
           </div>
         </div>
         <div className="wideColumnRt" >
-        <div className="section" >
-          <h5 className="borderedFull" style={{ marginTop: '15px' }}>
+          <h5 className="borderedFull" style={{ marginTop: '0' }}>
             Burgers & Hot Dogs
           </h5>
           <div className="text" >
@@ -56,6 +59,9 @@ const FoodTruck = () => (
             <span className="menuItem">
               ....... $10.00
             </span>
+            <span className="altItem">
+              .............. $10.00
+            </span>
           </div>
           <div className="text" >
           <span>
@@ -63,6 +69,9 @@ const FoodTruck = () => (
           </span>
           <span className="menuItem">
             ....... $16.00
+          </span>
+          <span className="altItem">
+            .............. $16.00
           </span>
           </div>
           <div className="text" >
@@ -72,6 +81,9 @@ const FoodTruck = () => (
           <span className="menuItem">
             ........................ $10.00
           </span>
+          <span className="altItem">
+            .............. $10.00
+          </span>
           </div>
           <div className="text" >
           <span>
@@ -79,6 +91,9 @@ const FoodTruck = () => (
           </span>
           <span className="menuItem">
             ... $15.00
+          </span>
+          <span className="altItem">
+            .............. $15.00
           </span>
           </div>
           <h5 className="borderedFull">
@@ -91,6 +106,9 @@ const FoodTruck = () => (
           <span className="menuItem">
             ........................ $10.00
           </span>
+          <span className="altItem">
+            .............. $10.00
+          </span>
           </div>
           <div className="text" >
           <span>
@@ -98,6 +116,9 @@ const FoodTruck = () => (
           </span>
           <span className="menuItem">
             .................. $16.00
+          </span>
+          <span className="altItem">
+            .............. $16.00
           </span>
           </div>
           <div className="text" >
@@ -107,12 +128,18 @@ const FoodTruck = () => (
           <span className="menuItem">
             ..................... $7.00
           </span>
+          <span className="altItem">
+            ............... $7.00
+          </span>
           </div>
           <div className="text" >
           <span>
             4. Grilled Cheese Combo
           </span>
           <span className="menuItem">
+            .............. $14.00
+          </span>
+          <span className="altItem">
             .............. $14.00
           </span>
           </div>
@@ -126,6 +153,9 @@ const FoodTruck = () => (
           <span className="menuItem">
             ....................... $5.00
           </span>
+          <span className="altItem">
+            ............... $5.00
+          </span>
           </div>
           <div className="text" >
           <span>
@@ -133,6 +163,9 @@ const FoodTruck = () => (
           </span>
           <span className="menuItem">
             ....................... $5.00
+          </span>
+          <span className="altItem">
+            ............... $5.00
           </span>
           </div>
           <h5 className="borderedFull">
@@ -145,6 +178,9 @@ const FoodTruck = () => (
             <span className="menuItem">
               ............................. $3.00
             </span>
+            <span className="altItem">
+              ............... $3.00
+            </span>
           </div>
           <div className="text" >
             <span>
@@ -153,8 +189,12 @@ const FoodTruck = () => (
             <span className="menuItem">
               ...................... $4.00
             </span>
+            <span className="altItem">
+              ............... $4.00
+            </span>
           </div>
           <br />
+
         </div>
         </div>
       </div>

@@ -4,80 +4,81 @@ const PageStyle = styled.div`
   margin: 0;
   width: 100%;
   background-color: #BECCDA;
-  padding: 30px 0;
+  padding: 60px 0;
   color: #053A92;
   text-align: center;
 
   .box {
+    padding: 20px;
+    margin: 5%;
+    background-color: #eff2f6;
+    max-width: 900px;
+  }
+  .innerBox {
+    border: 2px solid #053A92;
+    padding: 10px;
     display: flex;
-    padding: 5%;
+    background-color: #BECCDA;
     justify-content: space-between;
   }
   .info {
     text-align: center;
     width: 75%;
     margin: 80px auto;
-
   }
   .info2 {
-    text-align: center;
-    width: 75%;
     margin: 0 auto;
   }
   .wideColumn {
-    margin: 15px auto;
-    padding: 2%;
-    width: 80%;
-    background-color: #eff2f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2%;
+    width: -webkit-fill-available;
   }
-
   .wideColumnRt {
-    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
     padding: 2%;
-    width: 80%;
-    max-width: 445px;
-    background-color: #eff2f6;
+    width: 100%;
+    text-align: left;
+    max-width: 480px;
   }
   .slimColumn {
-    width: 41%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .slimCateringColumn {
-    width: 41%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
   .splitColumn {
-    margin: 15px 5px;
-    padding: 1%;
-    width: 49%;
-    background-color: #eff2f6;
+    padding: 0 2%;
+    width: 50%;
   }
-
   .cardBox {
     display: flex;
-    padding: 5%;
-    margin: 0;
+    justify-content: center;
+    padding: 0 30px 30px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
   }
-
+  .phone {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    img{
+      width: 30px;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
   .videoCard {
     width: 350px;
     height: 200px;
-    margin: 20px 10px;
+    margin: 20px 5px;
   }
-
-  iframe {
-    width: 100%;
-    height: 100%;
-    padding: auto;
-  }
-
   .copyright {
     font-size: 10px;
     span {
@@ -85,75 +86,32 @@ const PageStyle = styled.div`
       display: inline;
     }
   }
-  .lineBreak {
-    height: 2px;
-    margin: 10px auto;
-    border-bottom: 2px solid #053A92;
-    width: 70%;
+  iframe {
+    width: 100%;
+    height: 100%;
+    padding: auto;
   }
   .section {
-    margin: 5px 0;
-    padding: 2%;
-    text-align: left;
+    padding: 10px;
     background-color: #eff2f6;
-  }
-  .longColumn {
-      margin: 15px auto;
-      padding: 2%;
-      width: 80%;
-      background-color: #eff2f6;
-  }
-
-  .smallSection {
-    margin: 15px auto;
-    padding: 2%;
-    width: 90%;
-    background-color: #eff2f6;
-  }
-  .text {
-    display: block;
-  }
-  .fittedSection {
-    margin: 0 auto;
-    text-align: left;
-    width: fit-content;
-    max-width: 95%;
   }
   .imgSection {
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 2%;
     background-color: #eff2f6;
     width: 60%;
   }
-
-  h5 {
-    font-size: 18px;
-    text-align: center;
-    &.borderedFull {
-      border-bottom: 2px solid;
-      width: fit-content;
-      margin: 20px auto;
-    }
-    &.banner {
-      border-bottom: 2px solid;
-      border-top: 2px solid;
-      width: 100%;
-      font-size: 26px;
-      background-color: #eff2f6;
-
-    }
-    &.borderedHeader {
-      border-bottom: 2px solid;
-      /* border-top: 2px solid; */
-      width: fit-content;
-      margin: 0 auto 20px auto;
-    }
+  .longColumn {
+    padding: 2%;
+  }
+  .text {
+    display: block;
+    margin: 10px 0;
   }
   h2 {
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    /* width: fit-content; */
     border-bottom: 2px solid;
     border-top: 2px solid;
     margin: auto;
@@ -162,21 +120,16 @@ const PageStyle = styled.div`
   h3 {
     font-size: 26px;
     border-bottom: 2px solid;
-    /* border-top: 2px solid; */
     margin: 30px auto;
     width: fit-content;
   }
-  h4 {
-    font-size: 28px;
+  h5 {
+    font-size: 18px;
     text-align: center;
-    &.pgHeader {
-      text-decoration: underline;
-    }
-    &.bordered {
-      width: max-content;
+    &.borderedFull {
       border-bottom: 2px solid;
-      border-top: 2px solid;
-      margin: 30px auto;
+      width: fit-content;
+      margin: 20px auto;
     }
   }
   img {
@@ -190,77 +143,67 @@ const PageStyle = styled.div`
   br {
     height: 8px;
   }
+  a{
+    display:block;
+    text-decoration: none;
+  }
   span {
     display: block;
     font-size: 16px;
-    /* width: fit-content; */
-    &.lgText{
-      font-size: 24px;
-      margin: 20px 0;
-    }
     &.menuItem{
-      text-align: right;
+    }
+    &.altItem{
+      width: fit-content;
+      margin-left: auto;
     }
   }
   ul {
     padding-left: 4%;
-    margin: auto;
+    margin: 0;
     text-align: left;
   }
-  li {
-    margin: auto;
-  }
-  @media (max-width: 768px) {
-    /* for displays larger than 768px */
 
+  @media (max-width: 768px) {
+    /* for displays smaller than 768px */
     .slimColumn,
     .splitColumn,
-    .slimCateringColumn {
+    .menuItem {
       display: none;
     }
   }
   @media (min-width: 769px) {
-    /* for displays smaller than 768px */
-    ul {
-      margin: 0;
-    }
+    /* for displays larger than 768px */
     .videoCard {
       width: 570px;
       height: 325px;
+    }
+    .innerBox {
+      padding: 20px;
     }
     .text {
       display: -webkit-inline-box;
     }
     .wideColumnRt {
-      justify-content: space-evenly;
-      display: flex;
-      flex-direction: column;
-      max-width: 800px;
-      margin: 5px 0 5px 15px;
+      width: fit-content;
+      margin: 0 ;
+      min-width: 450px;
     }
     .section {
       text-align: unset;
     }
-    .fittedSection {
-      justify-content: space-evenly;
-      display: flex;
-      flex-direction: column;
-    }
-    .wideColumn {
-      width: 57%;
-      justify-content: space-between;
-      display: flex;
-      flex-direction: column;
-      margin: 5px 15px 5px 0;
-    }
-
     .info2,
     .longColumn,
+    .altItem,
     .imgSection {
       display: none;
     }
   }
-
+  @media (min-width: 1100px) {
+    /* for displays larger than 1100px */
+    .box {
+      margin: 5% auto;
+    }
+  }
 `
 
 export default PageStyle

@@ -17,7 +17,13 @@ const SmFooter = () => {
         <h4> LOCATION </h4>
         <span> 913 E. California Blvd. </span>
         <span> Pasadena, CA 91106 </span>
-        <span> (626)795-1123 </span>
+        <br />
+        <div className="phone">
+          <img src="phoneIcon.png" alt=""/>
+          <a href="tel:+16267951123">
+            (626)795-1123
+          </a>
+        </div>
       </div>
       <div className="section">
         <h4> HOURS </h4>
@@ -37,6 +43,7 @@ export default SmFooter
   background-color: white;
   padding-top: 20px;
   /* height: 150px; */
+  margin-bottom: 10px;
   color: #053A92;
   text-align: center;
   padding: 0;
@@ -61,10 +68,26 @@ export default SmFooter
     width: 100%;
   }
 
+  .phone {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    img{
+      width: 30px;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+
   img {
     width: 45px;
     &.logo {
       width: 90px;
+    }
+    &.phone {
+      width: 20px;
     }
   }
 

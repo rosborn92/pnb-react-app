@@ -8,14 +8,14 @@ const About = () => (
     <PageStyle>
       <h2> HISTORY </h2>
       <div className="box" >
+      <div className="innerBox" >
         <div className="wideColumn" >
-          <br />
           <span>
             Pie 'n Burger opened in 1963 in its current location on California Blvd. Its formica counters and soda fountain preserve the essence of the traditional coffee shop.
           </span>
           <br />
           <span>
-            Micahel Osborn, the current owner, first ate at the restaurant as a 9-year old and began working there in 1972 while studying dentistry at USC.
+            Michael Osborn, the current owner, first ate at the restaurant as a 9-year old and began working there in 1972 while studying dentistry at USC.
           </span>
           <br />
           <span>
@@ -40,6 +40,7 @@ const About = () => (
           <div className="section" >
             <img src="clock.jpeg" alt="PNB neon clock" />
           </div>
+        </div>
         </div>
       </div>
     </PageStyle>

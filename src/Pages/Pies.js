@@ -8,8 +8,8 @@ const Pies = () => (
     <PageStyle>
       <h2> FRESHLY BAKED PIES </h2>
       <div className="box">
+      <div className="innerBox">
         <div className="wideColumn">
-        <div className="fittedSection">
           <h5 className="borderedFull"> CLASSICS </h5>
           <ul>
             <li>Apple</li>
@@ -49,7 +49,6 @@ const Pies = () => (
           </ul>
 
         </div>
-        </div>
         <div className="slimColumn">
           <div className="section">
             <img src="coconutPie.jpg" alt="Whole Coconut Pie"/>
@@ -60,6 +59,7 @@ const Pies = () => (
           <div className="section">
             <img src="pie.jpg" alt="Fresh Strawberry and Peach Pies"/>
           </div>
+        </div>
         </div>
       </div>
     </PageStyle>

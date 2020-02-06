@@ -12,10 +12,14 @@ const Catering = () => (
         Below are our standard and most popular menus for catered events.
         Please conctact for other options or to inquire about a catered event.
         </span>
-        <span style={{marginTop:"10px"}}>
-        (626)795-1123
-        </span>
-        <div className="lineBreak" />
+        <br />
+        <div className="phone">
+          <img src="phoneIcon.png" alt=""/>
+          <a href="tel:+16267951123">
+            (626)795-1123
+          </a>
+        </div>
+        <br />
         <span>
           Prices include paper goods, tax, and labor. Travel outside the greater Pasadena area, certain venues, and a food truck catered event may incur an additional fee.
         </span>
@@ -30,48 +34,49 @@ const Catering = () => (
         </span>
       </div>
       <div className="box">
-        <div className="wideColumn">
-          <div className="fittedSection">
+        <div className="innerBox">
+          <div className="wideColumn">
 
-          <h5 className="borderedHeader">
-            I. Cheeseburgers
-          </h5>
-          <ul>
-            <li>Vegetarian & Turkey available upon request</li>
-          </ul>
-          <h5 className="borderedFull">
-            II. 3 Side Dishes:
-          </h5>
-          <ul>
-            <li>French Fries</li>
-            <li>Potato Salad</li>
-            <li>Tossed Green Salad</li>
-            <li>Fresh Fruit Salad</li>
-            <li>Pasta Salad</li>
-            <li>Cole Slaw</li>
-            <li>Chili</li>
-          </ul>
-          <h5 className="borderedFull">
-            III. Dessert
-          </h5>
-          <ul>
-            <li>Assorted Pies & Vanilla Ice Cream</li>
-          </ul>
-          <h5 className="borderedFull">
-            Also available for additional fee:
-          </h5>
-          <ul>
-            <li>Onion Rings</li>
-            <li>Extra Side Dishes</li>
-            <li>Dodger Dogs</li>
-            <li>Milkshakes</li>
-            <li>Sundae Bar</li>
-            <li>Sodas</li>
-            <li>Coffee</li>
-          </ul>
+
+            <h5 className="borderedFull" style={{marginTop:"0"}}>
+              I. Cheeseburgers
+            </h5>
+            <ul>
+              <li>Vegetarian & Turkey available upon request</li>
+            </ul>
+            <h5 className="borderedFull">
+              II. 3 Side Dishes:
+            </h5>
+            <ul>
+              <li>French Fries</li>
+              <li>Potato Salad</li>
+              <li>Tossed Green Salad</li>
+              <li>Fresh Fruit Salad</li>
+              <li>Pasta Salad</li>
+              <li>Cole Slaw</li>
+              <li>Chili</li>
+            </ul>
+            <h5 className="borderedFull">
+              III. Dessert
+            </h5>
+            <ul>
+              <li>Assorted Pies & Vanilla Ice Cream</li>
+            </ul>
+            <h5 className="borderedFull">
+              Also available for additional fee:
+            </h5>
+            <ul>
+              <li>Onion Rings</li>
+              <li>Extra Side Dishes</li>
+              <li>Dodger Dogs</li>
+              <li>Milkshakes</li>
+              <li>Sundae Bar</li>
+              <li>Sodas</li>
+              <li>Coffee</li>
+            </ul>
+
         </div>
-        </div>
-        <div className="slimCateringColumn">
+        <div className="slimColumn" style={{justifyContent:"space-evenly"}}>
           <div>
             <span>
             $32.00 / person **
@@ -83,6 +88,7 @@ const Catering = () => (
           <div className="section">
             <img src="catering.jpg" alt="PNB catered event display"/>
           </div>
+        </div>
         </div>
       </div>
       <div className="imgSection">
@@ -98,9 +104,10 @@ const Catering = () => (
         </span>
       </div>
       <div className="box">
+      <div className="innerBox">
         <div className="wideColumn">
-        <div className="fittedSection">
-          <h5 className="borderedHeader">
+
+          <h5 className="borderedFull" style={{marginTop:"0"}}>
               I. Choice of 2 Meats:
           </h5>
           <ul>
@@ -137,9 +144,9 @@ const Catering = () => (
           <ul>
             <li>Assorted Pies & Vanilla Ice Cream</li>
           </ul>
+
         </div>
-        </div>
-        <div className="slimCateringColumn" >
+        <div className="slimColumn" style={{justifyContent:"space-evenly"}}>
           <div>
             <span>
             $42.00 / person **
@@ -152,6 +159,7 @@ const Catering = () => (
             <img src="cateringPies.jpg" alt="PNB catered event dessert display" />
           </div>
         </div>
+        </div>
       </div>
       <div className="imgSection">
         <img src="cateringPies.jpg" alt="PNB catered event dessert display" />
@@ -159,8 +167,8 @@ const Catering = () => (
       <h3> APPETIZERS </h3>
       <span> prices vary </span>
       <div className="box">
+      <div className="innerBox">
         <div className="splitColumn">
-          <div className="fittedSection">
             <ul>
               <li>Fresh Fruit</li>
               <li>Fresh Vegetables & Dip</li>
@@ -176,10 +184,8 @@ const Catering = () => (
               <li>Deviled Eggs</li>
               <li>Antipasto Platter (olives,peppers, cheese, Italian meats)</li>
             </ul>
-          </div>
         </div>
         <div className="splitColumn">
-          <div className="fittedSection">
             <ul>
               <li>Assorted Gourmet Quesadillas</li>
               <li>Potstickers</li>
@@ -195,10 +201,8 @@ const Catering = () => (
               <li>Jr. Cheeseburgers (Sliders)</li>
               <li>Small Deli Sandwiches on Rolls</li>
             </ul>
-          </div>
         </div>
         <div className="longColumn">
-          <div className="fittedSection">
             <ul>
               <li>Fresh Fruit</li>
               <li>Fresh Vegetables & Dip</li>
@@ -227,8 +231,8 @@ const Catering = () => (
               <li>Jr. Cheeseburgers (Sliders)</li>
               <li>Small Deli Sandwiches on Rolls</li>
             </ul>
-          </div>
         </div>
+      </div>
       </div>
 
     </PageStyle>

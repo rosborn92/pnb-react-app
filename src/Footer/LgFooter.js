@@ -11,7 +11,13 @@ const LgFooter = () => {
           <h4> LOCATION </h4>
           <span> 913 E. California Blvd. </span>
           <span> Pasadena, CA 91106 </span>
-          <span> (626)795-1123 </span>
+          <br />
+          <div className="phone">
+            <img src="phoneIcon.png" alt=""/>
+            <a href="tel:+16267951123">
+              (626)795-1123
+            </a>
+          </div>
         </div>
         <div className="column2">
           <img className="logo" src="logo.png" alt=""/>
@@ -35,10 +41,10 @@ export default LgFooter
 
   const StyledLgFooter = styled.footer`
   background-color: white;
-  /* height: 150px; */
   color: #053A92;
   text-align: center;
   padding: 0;
+  margin-bottom: 10px;
 
   .row {
     width: 100%;
@@ -65,6 +71,19 @@ export default LgFooter
     padding: 0;
     bottom: 0;
     width: 100%;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    img{
+      width: 30px;
+    }
+    a{
+      text-decoration: none;
+    }
   }
 
   img {
