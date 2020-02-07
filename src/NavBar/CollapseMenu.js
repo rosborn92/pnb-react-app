@@ -40,9 +40,7 @@ const CollapseWrapper = styled.div`
     font-size: 20px;
     width: 100%;
     line-height: 35px;
-    /* color: #dfe6e9; */
     color: #053A92;
-    /* text-transform: uppercase; */
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
@@ -60,8 +58,3 @@ const CollapseWrapper = styled.div`
     display: none;
   }
   `;
-
- /* const NavLinks = styled.div` */
-//   padding: 2rem 1rem 2rem 2rem;
-//   display: flex;
-//   flex-direction: column;

@@ -1,8 +1,20 @@
+import React from 'react'
 import styled from 'styled-components'
+import PhotoBox from '../PhotoBox/PhotoBox'
+
+const Home = () => (
+  <>
+    <StyledHome>
+      <img src="logo.png" alt=""/>
+    </StyledHome>
+    <PhotoBox />
+  </>
+)
+
+export default Home
 
 const StyledHome = styled.div`
   color: #053A92;
-  /* background-color: #BECCDA; */
   background-image: url("counter.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -14,5 +26,3 @@ const StyledHome = styled.div`
     margin: 0;
   }
 `
-
-export default StyledHome

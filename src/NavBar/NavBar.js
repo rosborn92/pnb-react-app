@@ -44,17 +44,8 @@ const NavBar = (props) => {
 export default NavBar
 
 const NavContainer = styled.nav`
-  /* position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: #2d3436;
-  z-index: 1;
-  font-size: 1.4rem; */
-
   background: rgba(226, 232, 238, 0.9);
   width: 100%;
-  /* background: rgba(5, 58, 146, 0.9); */
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -62,37 +53,17 @@ const NavContainer = styled.nav`
   display: -webkit-flex;
   flex-direction: row;
   -webkit-align-items: center;
-  /* justify-content: flex-end; */
   height: 60px;
-
-  /* img {
-    width: 60px;
-  } */
 `;
 
-// const FlexContainer = styled.div`
-//   max-width: 120rem;
-//   display: flex;
-//   margin: auto;
-//   padding: 0 2rem;;
-//   justify-content: space-between;
-//   height: 5rem;
-// `;
-
 const NavLinks = styled.div`
-  /* justify-self: end; */
-  /* list-style-type: none; */
   margin: auto 0 auto auto;
-  /* justify-content: flex-end; */
-
 
   & a {
     color: #053A92;
     font-weight: bold;
-    /* border-bottom: 1px solid transparent; */
     margin: 0;
     padding: 0 10px;
-    /* transition: all 300ms linear 0s; */
     text-decoration: none;
     cursor: pointer;
     border-bottom: 2px solid;
@@ -112,7 +83,6 @@ const NavLinks = styled.div`
 `;
 
 const BurgerWrapper = styled.div`
-  /* margin:; */
   margin-left: auto;
   @media (min-width: 769px) {
     /* for displays smaller than 768px */
