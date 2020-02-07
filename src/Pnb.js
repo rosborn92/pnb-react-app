@@ -6,7 +6,7 @@ import {
 
 import NavBar from './NavBar/NavBar'
 import Catering from './Pages/Catering'
-import Footer from './Footer/Footer'
+import Footer from './Footer'
 import Menu from './Pages/Menu'
 import Pies from './Pages/Pies'
 import Press from './Pages/Press'
