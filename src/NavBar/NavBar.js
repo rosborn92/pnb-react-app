@@ -10,28 +10,21 @@ const NavBar = (props) => {
     <>
       <NavContainer>
         <img src="logo.png" alt="" style={{width:"60px", margin:"auto auto auto 35px"}}/>
-          <NavLinks>
-            <Link to="/">HOME</Link>
-
-            <Link to="/About">ABOUT</Link>
-
-            <Link to="/Menu">MENU</Link>
-
-            <Link to="/Pies">PIES</Link>
-
-            <Link to="/Press">PRESS</Link>
-
-            <Link to="/Catering">CATERING</Link>
-
-            <Link to="/FoodTruck">FOOD TRUCK</Link>
-          </NavLinks>
-          <BurgerWrapper>
-            <BurgerMenu
-              navOpen={props.navOpen}
-              handleNav={props.handleNav}
-            />
-          </BurgerWrapper>
-
+        <NavLinks>
+          <Link to="/">HOME</Link>
+          <Link to="/About">ABOUT</Link>
+          <Link to="/Menu">MENU</Link>
+          <Link to="/Pies">PIES</Link>
+          <Link to="/Press">PRESS</Link>
+          <Link to="/Catering">CATERING</Link>
+          <Link to="/FoodTruck">FOOD TRUCK</Link>
+        </NavLinks>
+        <BurgerWrapper>
+          <BurgerMenu
+            navOpen={props.navOpen}
+            handleNav={props.handleNav}
+          />
+        </BurgerWrapper>
       </NavContainer>
       <CollapseMenu
         navOpen={props.navOpen}
