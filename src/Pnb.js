@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route
   } from 'react-router-dom'
+import ScrollToTop from 'react-router-scroll-top'
 
 import NavBar from './NavBar/NavBar'
 import Catering from './Pages/Catering'
@@ -33,71 +34,68 @@ class Pnb extends React.Component {
     return (
       <GlobalStyle>
         <Router>
-          <NavBar
-            navOpen={this.state.navOpen}
-            handleNav={this.handleNav}
-          />
-          <Route
-            exact path="/"
-            render = {() => {
-              return (
-                <Home/>
-              )
-            }}
-          />
-
-          <Route
-            exact path="/Menu"
-            render = {() => {
-              return (
-                <Menu/>
-              )
-            }}
-          />
-
-          <Route
-            exact path="/Pies"
-            render = {() => {
-              return (
-                <Pies/>
-              )
-            }}
-          />
-
-          <Route
-            exact path="/Press"
-            render = {() => {
-              return (
-                <Press/>
-              )
-            }}
-          />
-
-          <Route
-            exact path="/FoodTruck"
-            render = {() => {
-              return (
-                <FoodTruck/>
-              )
-            }}
-          />
-          <Route
-            exact path="/About"
-            render = {() => {
-              return (
-                <About/>
-              )
-            }}
-          />
-          <Route
-            exact path="/Catering"
-            render = {() => {
-              return (
-                <Catering/>
-              )
-            }}
-          />
-
+          <ScrollToTop>
+            <NavBar
+              navOpen={this.state.navOpen}
+              handleNav={this.handleNav}
+            />
+            <Route
+              exact path="/"
+              render = {() => {
+                return (
+                  <Home/>
+                )
+              }}
+            />
+            <Route
+              exact path="/Menu"
+              render = {() => {
+                return (
+                  <Menu/>
+                )
+              }}
+            />
+            <Route
+              exact path="/Pies"
+              render = {() => {
+                return (
+                  <Pies/>
+                )
+              }}
+            />
+            <Route
+              exact path="/Press"
+              render = {() => {
+                return (
+                  <Press/>
+                )
+              }}
+            />
+            <Route
+              exact path="/FoodTruck"
+              render = {() => {
+                return (
+                  <FoodTruck/>
+                )
+              }}
+            />
+            <Route
+              exact path="/About"
+              render = {() => {
+                return (
+                  <About/>
+                )
+              }}
+            />
+            <Route
+              exact path="/Catering"
+              render = {() => {
+                return (
+                  <Catering/>
+                )
+              }}
+            />
+          </ScrollToTop>
         </Router>
         <Footer />
       </GlobalStyle>
