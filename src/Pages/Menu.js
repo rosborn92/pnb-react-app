@@ -50,4 +50,5 @@ const StyledMenu = styled(ReactImageAppear)`
     max-width: 600px;
     margin: 30px auto;
     width: 100%;
+    z-index: -1;
 `;
