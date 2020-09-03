@@ -1,28 +1,43 @@
-import React from 'react'
-import StyledPhotoBox from './PhotoBox.styles'
+import React from "react";
+import styled from "styled-components";
+import ReactImageAppear from "react-image-appear";
+import StyledPhotoBox from "./PhotoBox.styles";
 
 const PhotoBox = () => (
-  <StyledPhotoBox>
+    <StyledPhotoBox>
+        <div className="card">
+            <StyledImg src="burger.jpg" alt="Plated burger and fries" />
+        </div>
+        <div className="card">
+            <StyledImg src="cashregister.jpg" alt="PNB Cash Register" />
+        </div>
+        <div className="card">
+            <StyledImg src="kitchen2.jpg" alt="PNB kitchen" />
+        </div>
+        <div className="card">
+            <StyledImg src="milkshake.jpg" alt="Chocolate Milkshake" />
+        </div>
+        <div className="card">
+            <StyledImg src="pie2.jpeg" alt="Strawberry and Peach Pie" />
+        </div>
+        <div className="card">
+            <StyledImg
+                src="counter2.jpg"
+                alt="snapshot of the counter at PNB"
+            />
+        </div>
+    </StyledPhotoBox>
+);
 
-    <div className="card" >
-      <img src="burger.jpg" alt="Plated burger and fries"/>
-    </div>
-    <div className="card" >
-      <img src="cashregister.jpg" alt="PNB Cash Register"/>
-    </div>
-    <div className="card" >
-      <img src="kitchen2.jpg" alt="PNB kitchen"/>
-    </div>
-    <div className="card" >
-      <img src="milkshake.jpg" alt="Chocolate Milkshake"/>
-    </div>
-    <div className="card" >
-      <img src="pie2.jpeg" alt="Strawberry and Peach Pie"/>
-    </div>
-    <div className="card" >
-      <img src="counter2.jpg" alt="snapshot of the counter at PNB"/>
-    </div>
-  </StyledPhotoBox>
-)
+export default PhotoBox;
 
-export default PhotoBox
+const StyledImg = styled(ReactImageAppear)`
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+`;
