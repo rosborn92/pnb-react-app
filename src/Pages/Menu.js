@@ -40,15 +40,11 @@ const PageStyle = styled.div`
         background-color: #eff2f6;
     }
 `;
-// img {
-//     max-width: 600px;
-//     margin: 30px auto;
-//     width: 80%;
-// }
 
 const StyledMenu = styled(ReactImageAppear)`
     max-width: 600px;
     margin: 30px auto;
     width: 100%;
     z-index: -1;
+    background-color: #beccda !important;
 `;

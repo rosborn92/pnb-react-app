@@ -42,4 +42,5 @@ const StyledImg = styled(ReactImageAppear)`
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    background-color: #beccda !important;
 `;
