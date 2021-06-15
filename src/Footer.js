@@ -33,8 +33,8 @@ const Footer = () => {
                 <div className="column3">
                     <h4> HOURS </h4>
                     <br></br>
-                    <span>Open 9am - 9pm</span>
-                    <span>7 DAYS A WEEK</span>
+                    <span>Mon - Fri 9am - 9pm</span>
+                    <span>Sat - Sun 8am - 9pm</span>
                 </div>
             </div>
             <div className="footerdiv">

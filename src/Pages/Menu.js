@@ -11,9 +11,9 @@ const Menu = () => (
             <div className="box">
                 <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
                 <StyledMenu src="lunchMenu.png" alt="PNB Lunch & Dinner Menu" />
-                <StyledMenu src="kidsBreakfast.jpg" alt="Kids Breakfast Menu" />
+                <StyledMenu src="kidsBreakfast.png" alt="Kids Breakfast Menu" />
                 <StyledMenu
-                    src="kidsLunch.jpg"
+                    src="kidsLunch.png"
                     alt="Kids Lunch & Dinner Menu"
                 />
             </div>
