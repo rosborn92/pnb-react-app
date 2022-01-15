@@ -71,93 +71,93 @@ const FoodTruck = () => (
                             Burgers & Hot Dogs
                         </h5>
                         <ol>
-                            <div className="text">
-                                <li>Burger (beef or vegetarian)</li>
-                                <span className="menuItem">....... $10.00</span>
-                                <span className="altItem">.... $10.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Burger Combo w/Side & Drink</li>
-                                <span className="menuItem">....... $16.00</span>
-                                <span className="altItem">.... $16.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Dodger Dog</li>
-                                <span className="menuItem">
+                            {/* <div className="text"> */}
+                            <li>Burger (beef or vegetarian)</li>
+                            {/* <span className="menuItem">....... $10.00</span> */}
+                            {/* <span className="altItem">.... $10.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Burger Combo w/Side & Drink</li>
+                            {/* <span className="menuItem">....... $16.00</span> */}
+                            {/* <span className="altItem">.... $16.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Dodger Dog</li>
+                            {/* <span className="menuItem">
                                     ........................ $10.00
                                 </span>
-                                <span className="altItem">.... $10.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Dodger Dog Combo w/Side & Drink</li>
-                                <span className="menuItem">... $15.00</span>
-                                <span className="altItem">.... $15.00</span>
-                            </div>
+                                <span className="altItem">.... $10.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Dodger Dog Combo w/Side & Drink</li>
+                            {/* <span className="menuItem">... $15.00</span>
+                                <span className="altItem">.... $15.00</span> */}
+                            {/* </div> */}
                         </ol>
                         <h5 className="borderedFull">Sandwiches</h5>
                         <ol>
-                            <div className="text">
-                                <li>Patty Melt</li>
-                                <span className="menuItem">
+                            {/* <div className="text"> */}
+                            <li>Patty Melt</li>
+                            {/* <span className="menuItem">
                                     ........................ $10.00
                                 </span>
-                                <span className="altItem">.... $10.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Patty Melt Combo</li>
-                                <span className="menuItem">
+                                <span className="altItem">.... $10.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Patty Melt Combo</li>
+                            {/* <span className="menuItem">
                                     .................. $16.00
                                 </span>
-                                <span className="altItem">.... $16.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Grilled Cheese</li>
-                                <span className="menuItem">
+                                <span className="altItem">.... $16.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Grilled Cheese</li>
+                            {/* <span className="menuItem">
                                     ..................... $7.00
                                 </span>
-                                <span className="altItem">.... $7.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Grilled Cheese Combo</li>
-                                <span className="menuItem">
+                                <span className="altItem">.... $7.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Grilled Cheese Combo</li>
+                            {/* <span className="menuItem">
                                     .............. $14.00
                                 </span>
-                                <span className="altItem">.... $14.00</span>
-                            </div>
+                                <span className="altItem">.... $14.00</span> */}
+                            {/* </div> */}
                         </ol>
                         <h5 className="borderedFull">Sides</h5>
                         <ol>
-                            <div className="text">
-                                <li>French Fries</li>
-                                <span className="menuItem">
+                            {/* <div className="text"> */}
+                            <li>French Fries</li>
+                            {/* <span className="menuItem">
                                     ....................... $5.00
                                 </span>
-                                <span className="altItem">..... $5.00</span>
-                            </div>
-                            <div className="text">
-                                <li>Potato Salad</li>
-                                <span className="menuItem">
+                                <span className="altItem">..... $5.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
+                            <li>Potato Salad</li>
+                            {/* <span className="menuItem">
                                     ....................... $5.00
                                 </span>
-                                <span className="altItem">..... $5.00</span>
-                            </div>
+                                <span className="altItem">..... $5.00</span> */}
+                            {/* </div> */}
                         </ol>
                         <h5 className="borderedFull">Drinks & Desserts</h5>
                         <ol>
-                            <div className="text">
+                            {/* <div className="text"> */}
                                 <li>Drinks</li>
-                                <span className="menuItem">
+                                {/* <span className="menuItem">
                                     ............................. $3.00
                                 </span>
-                                <span className="altItem">..... $3.00</span>
-                            </div>
-                            <div className="text">
+                                <span className="altItem">..... $3.00</span> */}
+                            {/* </div> */}
+                            {/* <div className="text"> */}
                                 <li>Assorted Pies</li>
-                                <span className="menuItem">
+                                {/* <span className="menuItem">
                                     ...................... $4.00
                                 </span>
-                                <span className="altItem">..... $4.00</span>
-                            </div>
+                                <span className="altItem">..... $4.00</span> */}
+                            {/* </div> */}
                         </ol>
                         <br />
                     </div>
