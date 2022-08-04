@@ -31,6 +31,7 @@ const PageStyle = styled.div`
     display: flex;
     flex-direction: column;
     padding: 3% 10%;
+    align-items: center;
   }
   h2 {
     font-size: 30px;
