@@ -31,7 +31,7 @@ const Catering = () => (
             </div>
             <h3> CATERED BURGER PARTY </h3>
             <div className="info2">
-                <span>$35.00 / person</span>
+                <span>$37.00 / person</span>
                 <span>50 person minimum</span>
             </div>
             <div className="box">
@@ -75,7 +75,7 @@ const Catering = () => (
                         style={{ justifyContent: "space-evenly" }}
                     >
                         <div>
-                            <span>$35.00 / person **</span>
+                            <span>$37.00 / person **</span>
                             <span>50 person minimum</span>
                         </div>
                         <div className="section">
@@ -92,7 +92,7 @@ const Catering = () => (
             </div>
             <h3> CATERED BBQ PARTY </h3>
             <div className="info2">
-                <span>$44.00 / person</span>
+                <span>$47.00 / person</span>
                 <span>50 person minimum</span>
             </div>
             <div className="box">
@@ -135,7 +135,7 @@ const Catering = () => (
                         style={{ justifyContent: "space-evenly" }}
                     >
                         <div>
-                            <span>$44.00 / person **</span>
+                            <span>$47.00 / person **</span>
                             <span>50 person minimum</span>
                         </div>
                         <div className="section">
