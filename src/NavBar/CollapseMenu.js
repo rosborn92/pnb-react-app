@@ -6,7 +6,7 @@ const CollapseMenu = (props) => {
     if (props.navOpen === true) {
         return (
             <CollapseWrapper
-                role="menu"
+                // role="menu"
                 id="menuItems"
             >
                 <Link onClick={props.handleNav} to="/">

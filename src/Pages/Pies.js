@@ -4,6 +4,7 @@ import Jumbotron from '../Jumbotron.styles'
 
 const Pies = () => (
   <>
+    <title>Pies</title>
     <Jumbotron src="pies3.jpg" alt="Row of Plated Meringue Pies" />
     <PageStyle>
       <h1> FRESHLY BAKED PIES </h1>

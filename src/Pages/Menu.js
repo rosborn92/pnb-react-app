@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Jumbotron from "../Jumbotron.styles";
-import ReactImageAppear from "react-image-appear";
+// import ReactImageAppear from "react-image-appear";
 
 const Menu = () => (
   <>
+    <title>Menu Page - Call for more details</title>
     <Jumbotron src="backcounter.jpg" alt="picture of pie n burger menu and pie case"/>
     <PageStyle>
       <h1>MENU</h1>
@@ -44,7 +45,8 @@ const PageStyle = styled.div`
   }
 `;
 
-const StyledMenu = styled(ReactImageAppear)`
+// const StyledMenu = styled(ReactImageAppear)`
+const StyledMenu = styled.img`
   max-width: 800px;
   margin: 30px auto;
   width: 95%;

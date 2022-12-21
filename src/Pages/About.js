@@ -4,6 +4,7 @@ import Jumbotron from '../Jumbotron.styles'
 
 const About = () => (
   <>
+    <title>About Page - History</title>
     <Jumbotron src="outsideShort.jpg" alt="Street View of PNB" />
     <PageStyle>
       <h1> HISTORY </h1>

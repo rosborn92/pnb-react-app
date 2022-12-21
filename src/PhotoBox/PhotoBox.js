@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ReactImageAppear from "react-image-appear";
+// import ReactImageAppear from "react-image-appear";
 import StyledPhotoBox from "./PhotoBox.styles";
 
 const PhotoBox = () => (
@@ -8,7 +8,7 @@ const PhotoBox = () => (
         <div className="card">
             <StyledImg
                 src="burger.jpg"
-                alt="Plated burger and fries"                
+                alt="Plated burger and fries"  
             />
         </div>
         <div className="card">
@@ -46,13 +46,14 @@ const PhotoBox = () => (
 
 export default PhotoBox;
 
-const StyledImg = styled(ReactImageAppear)`
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-    }
+// const StyledImg = styled(ReactImageAppear)`
+const StyledImg = styled.img`
+    // img {
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: cover;
+    //     z-index: -1;
+    // }
     width: 100%;
     height: 100%;
     object-fit: cover;

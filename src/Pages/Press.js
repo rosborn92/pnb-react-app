@@ -4,6 +4,7 @@ import Jumbotron from '../Jumbotron.styles'
 
 const Press = () => (
   <>
+    <title>Press - some videos from fans</title>
     <Jumbotron src="kitchen2.jpg" alt="View of PNB kitchen" />
     <PageStyle>
       <h1>PRESS</h1>

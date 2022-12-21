@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import ReactImageAppear from "react-image-appear";
+// import ReactImageAppear from "react-image-appear";
 
-const Jumbotron = styled(ReactImageAppear)`
+// const Jumbotron = styled(ReactImageAppear)`
+const Jumbotron = styled.img`
     width: 100vw;
     margin: 0;
     paddingtop: 60px;

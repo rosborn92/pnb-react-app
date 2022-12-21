@@ -4,6 +4,7 @@ import Jumbotron from "../Jumbotron.styles";
 
 const Catering = () => (
     <>
+        <title>Catering Page</title>
         <Jumbotron src="burgerNfriesShort.jpg" alt="Plated Burger and Fries" />
         <PageStyle>
             <h1> CATERING </h1>

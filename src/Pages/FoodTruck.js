@@ -4,6 +4,7 @@ import Jumbotron from "../Jumbotron.styles";
 
 const FoodTruck = () => (
     <>
+        <title>Food Truck Page</title>
         <Jumbotron src="ftBanner.jpg" alt="food truck" />
         <PageStyle>
             <h1>FOOD TRUCK</h1>
