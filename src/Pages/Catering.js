@@ -6,7 +6,7 @@ const Catering = () => (
     <>
         <Jumbotron src="burgerNfriesShort.jpg" alt="Plated Burger and Fries" />
         <PageStyle>
-            <h2> CATERING </h2>
+            <h1> CATERING </h1>
             <div className="info">
                 <span>
                     Below are our standard and most popular menus for catered
@@ -17,10 +17,11 @@ const Catering = () => (
                 <div className="phone">
                     <img
                         src="phoneIcon.png"
-                        alt=""
+                        alt="phone icon"
                         style={{ marginRight: "10px" }}
+                        role="presentation"
                     />
-                    <a href="tel:+16267951123">(626)795-1123</a>
+                    <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                 </div>
                 <br />
                 <span>

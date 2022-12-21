@@ -6,7 +6,7 @@ const Pies = () => (
   <>
     <Jumbotron src="pies3.jpg" alt="Row of Plated Meringue Pies" />
     <PageStyle>
-      <h2> FRESHLY BAKED PIES </h2>
+      <h1> FRESHLY BAKED PIES </h1>
       <div className="box">
       <div className="innerBox">
         <div className="wideColumn">

@@ -8,7 +8,7 @@ const Footer = () => {
         <StyledFooter>
             <div className="section">
                 <div className="column2">
-                    <img className="logo" src="logo.png" alt="" />
+                    <img className="logo" src="logo.png" alt="pnb logo" />
                     <div className="links">
                         <InstaLink />
                         <TwitterLink />
@@ -23,10 +23,11 @@ const Footer = () => {
                     <div className="phone">
                         <img
                             src="phoneIcon.png"
-                            alt=""
+                            alt="phone icon"
                             style={{ marginRight: "10px" }}
+                            role="presentation"
                         />
-                        <a href="tel:+16267951123">(626)795-1123</a>
+                        <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                     </div>
                 </div>
 
@@ -147,7 +148,10 @@ const StyledLogoLink = styled.a`
     }
 `;
 const InstaLink = () => (
-    <StyledLogoLink href="https://www.instagram.com/thepienburger/?hl=en">
+    <StyledLogoLink
+        href="https://www.instagram.com/thepienburger/?hl=en"
+        aria-label="PNB Instagram Account"
+    >
         <img
             src="igLogo.png"
             alt="instagram logo, Link to PNB Instagram page"
@@ -156,7 +160,10 @@ const InstaLink = () => (
 );
 
 const TwitterLink = () => (
-    <StyledLogoLink href="https://twitter.com/pienburger?lang=en">
+    <StyledLogoLink
+        href="https://twitter.com/pienburger?lang=en"
+        aria-label="PNB Twitter Account"
+    >
         <img
             src="twitterLogo.png"
             alt="twitter logo, link to PNB twitter page"

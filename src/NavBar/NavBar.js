@@ -11,7 +11,7 @@ const NavBar = (props) => {
             <NavContainer>
                 <img
                     src="logo.png"
-                    alt=""
+                    alt="pnb logo"
                     style={{ width: "60px", margin: "auto auto auto 35px" }}
                 />
                 <NavLinks>
@@ -29,8 +29,8 @@ const NavBar = (props) => {
                         handleNav={props.handleNav}
                     />
                 </BurgerWrapper>
+                <CollapseMenu navOpen={props.navOpen} handleNav={props.handleNav} />
             </NavContainer>
-            <CollapseMenu navOpen={props.navOpen} handleNav={props.handleNav} />
         </>
     );
 };

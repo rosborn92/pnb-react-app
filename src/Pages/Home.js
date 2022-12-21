@@ -5,7 +5,8 @@ import PhotoBox from "../PhotoBox/PhotoBox";
 const Home = () => (
     <>
         <StyledHome>
-            <img src="logo.png" alt="" />
+        <h1>Home</h1>
+            <img src="logo.png" alt="pnb logo" />
         </StyledHome>
         <PhotoBox />
     </>
@@ -20,6 +21,18 @@ const StyledHome = styled.div`
     background-size: 100%;
     text-align: center;
     padding-top: 60px;
+
+    h1 {
+        border: 0;
+        clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+        clip; rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px; 
+    }
 
     img {
         width: 40%;

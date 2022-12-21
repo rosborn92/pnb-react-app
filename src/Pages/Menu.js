@@ -5,10 +5,9 @@ import ReactImageAppear from "react-image-appear";
 
 const Menu = () => (
   <>
-    <Jumbotron src="backcounter.jpg" />
+    <Jumbotron src="backcounter.jpg" alt="picture of pie n burger menu and pie case"/>
     <PageStyle>
-      <h2>MENU</h2>
-      {/* <div className="box"> */}
+      <h1>MENU</h1>
       <div className="menuContainer">
         <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
         <StyledMenu src="lunchMenu.png" alt="PNB Lunch & Dinner Menu" />
@@ -33,7 +32,7 @@ const PageStyle = styled.div`
     padding: 3% 10%;
     align-items: center;
   }
-  h2 {
+  h1 {
     font-size: 30px;
     text-align: center;
     padding: 10px;

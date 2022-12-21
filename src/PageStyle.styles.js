@@ -112,7 +112,7 @@ const PageStyle = styled.div`
     display: block;
     margin: 10px 0;
   }
-  h2 {
+  h1 {
     font-size: 30px;
     text-align: center;
     padding: 10px;

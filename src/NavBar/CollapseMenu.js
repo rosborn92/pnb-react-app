@@ -5,7 +5,10 @@ import styled from "styled-components";
 const CollapseMenu = (props) => {
     if (props.navOpen === true) {
         return (
-            <CollapseWrapper>
+            <CollapseWrapper
+                role="menu"
+                id="menuItems"
+            >
                 <Link onClick={props.handleNav} to="/">
                     HOME
                 </Link>

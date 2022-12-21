@@ -6,19 +6,34 @@ import StyledPhotoBox from "./PhotoBox.styles";
 const PhotoBox = () => (
     <StyledPhotoBox>
         <div className="card">
-            <StyledImg src="burger.jpg" alt="Plated burger and fries" />
+            <StyledImg
+                src="burger.jpg"
+                alt="Plated burger and fries"                
+            />
         </div>
         <div className="card">
-            <StyledImg src="cashregister.jpg" alt="PNB Cash Register" />
+            <StyledImg
+                src="cashregister.jpg"
+                alt="PNB Cash Register"                 
+            />
         </div>
         <div className="card">
-            <StyledImg src="kitchen2.jpg" alt="PNB kitchen" />
+            <StyledImg
+                src="kitchen2.jpg"
+                alt="PNB kitchen"                 
+            />
         </div>
         <div className="card">
-            <StyledImg src="milkshake.jpg" alt="Chocolate Milkshake" />
+            <StyledImg
+                src="milkshake.jpg"
+                alt="Chocolate Milkshake"                 
+            />
         </div>
         <div className="card">
-            <StyledImg src="pie2.jpeg" alt="Strawberry and Peach Pie" />
+            <StyledImg
+                src="pie2.jpeg"
+                alt="Strawberry and Peach Pie"                 
+            />
         </div>
         <div className="card">
             <StyledImg

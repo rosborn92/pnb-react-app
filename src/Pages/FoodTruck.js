@@ -6,7 +6,7 @@ const FoodTruck = () => (
     <>
         <Jumbotron src="ftBanner.jpg" alt="food truck" />
         <PageStyle>
-            <h2>FOOD TRUCK</h2>
+            <h1>FOOD TRUCK</h1>
             <div className="info">
                 <span>
                     You can find the PNB food truck at local events, private and
@@ -26,10 +26,11 @@ const FoodTruck = () => (
                 <div className="phone">
                     <img
                         src="phoneIcon.png"
-                        alt=""
+                        alt="phone icon"
                         style={{ marginRight: "10px" }}
+                        role="presentation"
                     />
-                    <a href="tel:+16267951123">(626)795-1123</a>
+                    <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                 </div>
             </div>
             <div className="box">
@@ -48,7 +49,10 @@ const FoodTruck = () => (
                             />
                             <div className="copyright">
                                 <span>© Carol Lightwood, </span>
-                                <a href="https://lacitypix.wordpress.com/2015/06/01/see-40000-bicylists-at-ciclavia-in-pasadena-wow-was-it-ever-crowded/">
+                                <a
+                                    href="https://lacitypix.wordpress.com/2015/06/01/see-40000-bicylists-at-ciclavia-in-pasadena-wow-was-it-ever-crowded/"
+                                    aria-label="opens to the credit source of the image - lacitypix.wordpress.com"
+                                >
                                     LA City Pix
                                 </a>
                             </div>
@@ -60,7 +64,10 @@ const FoodTruck = () => (
                             />
                             <div className="copyright">
                                 <span>© Josh McNair, </span>
-                                <a href="https://californiathroughmylens.com/rose-parade-floats">
+                                <a
+                                    href="https://californiathroughmylens.com/rose-parade-floats"
+                                    aria-label="opense to the credit source of the image - californiathroughmylens.com"
+                                >
                                     CaliforniaThroughMyLens.com
                                 </a>
                             </div>
