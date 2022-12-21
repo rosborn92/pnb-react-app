@@ -6,30 +6,43 @@ const CollapseMenu = (props) => {
     if (props.navOpen === true) {
         return (
             <CollapseWrapper
-                // role="menu"
                 id="menuItems"
             >
-                <Link onClick={props.handleNav} to="/">
-                    HOME
-                </Link>
-                <Link onClick={props.handleNav} to="/About">
-                    ABOUT
-                </Link>
-                <Link onClick={props.handleNav} to="/Menu">
-                    MENU
-                </Link>
-                <Link onClick={props.handleNav} to="/Pies">
-                    PIES
-                </Link>
-                <Link onClick={props.handleNav} to="/Press">
-                    PRESS
-                </Link>
-                <Link onClick={props.handleNav} to="/Catering">
-                    CATERING
-                </Link>
-                <Link onClick={props.handleNav} to="/FoodTruck">
-                    FOOD TRUCK
-                </Link>
+                <li>
+                    <Link onClick={props.handleNav} to="/">
+                        HOME
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/About">
+                        ABOUT
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/Menu">
+                        MENU
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/Pies">
+                        PIES
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/Press">
+                        PRESS
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/Catering">
+                        CATERING
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={props.handleNav} to="/FoodTruck">
+                        FOOD TRUCK
+                    </Link>
+                </li>
             </CollapseWrapper>
         );
     }
@@ -38,7 +51,7 @@ const CollapseMenu = (props) => {
 
 export default CollapseMenu;
 
-const CollapseWrapper = styled.div`
+const CollapseWrapper = styled.ul`
     background: #beccda;
     position: fixed;
     top: 60px;
@@ -52,24 +65,32 @@ const CollapseWrapper = styled.div`
     text-align: center;
     z-index: 1;
 
-    & a {
+    li {
+        list-style: none;
         border-bottom: 2px solid;
-        font-size: 20px;
-        width: 100%;
-        line-height: 35px;
-        color: #053a92;
-        text-decoration: none;
-        cursor: pointer;
-        font-weight: bold;
+        
         &:last-child {
             border-bottom: none;
         }
+        
+        & a {
+            color: #053a92;
+            width: 100%;
+            font-size: 20px;
+            line-height: 35px;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
 
         &:hover {
-            color: #dfe6e9;
             background: #053a92;
+            & a {
+                color: #dfe6e9;
+            }
         }
     }
+    
     @media (min-width: 769px) {
         /* for displays smaller than 768px */
         display: none;

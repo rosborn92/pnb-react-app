@@ -16,13 +16,13 @@ const NavBar = (props) => {
                     role="presentation"
                 />
                 <NavLinks>
-                    <Link to="/">HOME</Link>
-                    <Link to="/About">ABOUT</Link>
-                    <Link to="/Menu">MENU</Link>
-                    <Link to="/Pies">PIES</Link>
-                    <Link to="/Press">PRESS</Link>
-                    <Link to="/Catering">CATERING</Link>
-                    <Link to="/FoodTruck">FOOD TRUCK</Link>
+                    <li><Link to="/">HOME</Link></li>
+                    <li><Link to="/About">ABOUT</Link></li>
+                    <li><Link to="/Menu">MENU</Link></li>
+                    <li><Link to="/Pies">PIES</Link></li>
+                    <li><Link to="/Press">PRESS</Link></li>
+                    <li><Link to="/Catering">CATERING</Link></li>
+                    <li><Link to="/FoodTruck">FOOD TRUCK</Link></li>
                 </NavLinks>
                 <BurgerWrapper>
                     <BurgerMenu
@@ -52,30 +52,41 @@ const NavContainer = styled.nav`
     z-index: 1;
 `;
 
-const NavLinks = styled.div`
+// const NavLinks = styled.div`
+const NavLinks = styled.ul`
     margin: auto 0 auto auto;
 
-    & a {
-        color: #053a92;
-        font-weight: bold;
-        margin: 0;
-        padding: 0 10px;
-        text-decoration: none;
-        cursor: pointer;
+    // new:
+    // width: 100%;
+    display: flex;
+
+    li {
+        list-style: none;
         border-bottom: 2px solid;
-        border-top: 2px solid;
-        font-size: 21px;
-
-        &:hover {
-            color: #fdcb6e;
-            background: #053a92;
-        }
-
-        @media (max-width: 768px) {
-            /* for displays larger than 768px */
-            display: none;
+        
+        & a {
+            color: #053a92;
+            font-weight: bold;
+            margin: 0;
+            padding: 0 10px;
+            text-decoration: none;
+            cursor: pointer;
+            border-bottom: 2px solid;
+            border-top: 2px solid;
+            font-size: 21px;
+    
+            &:hover {
+                color: #fdcb6e;
+                background: #053a92;
+            }
+    
+            @media (max-width: 768px) {
+                /* for displays larger than 768px */
+                display: none;
+            }
         }
     }
+
 `;
 
 const BurgerWrapper = styled.div`
