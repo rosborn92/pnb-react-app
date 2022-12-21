@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import InstaLink from './InstaLink'
-// import TwitterLink from './TwitterLink'
 
 const Footer = () => {
     return (
@@ -16,7 +14,7 @@ const Footer = () => {
                 </div>
 
                 <div className="column1">
-                    <h4> LOCATION </h4>
+                    <h4 role="presentation"> LOCATION </h4>
                     <span> 913 E. California Blvd. </span>
                     <span> Pasadena, CA 91106 </span>
                     <br />
@@ -25,15 +23,14 @@ const Footer = () => {
                             src="phoneIcon.png"
                             alt="phone icon"
                             style={{ marginRight: "10px" }}
-                            role="presentation"
                         />
                         <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                     </div>
                 </div>
 
                 <div className="column3">
-                    <h4> HOURS </h4>
-                    <br></br>
+                    <h4 role="presentation"> HOURS </h4>
+                    <br />
                     {/* <span>Sun - Sat 8am - 9pm</span> */}
                     <span>MON - FRI 8am - 9pm</span>
                     <span>SAT & SUN 8am - 9pm</span>
@@ -140,6 +137,7 @@ const StyledFooter = styled.footer`
         }
     }
 `;
+
 const StyledLogoLink = styled.a`
     width: 25px;
     margin: 5px;
@@ -147,6 +145,7 @@ const StyledLogoLink = styled.a`
         width: 40px;
     }
 `;
+
 const InstaLink = () => (
     <StyledLogoLink
         href="https://www.instagram.com/thepienburger/?hl=en"

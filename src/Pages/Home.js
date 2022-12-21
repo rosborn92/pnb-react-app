@@ -7,7 +7,7 @@ const Home = () => (
         <title>Home Page</title>
         <StyledHome>
         <h1>Home</h1>
-            <img src="logo.png" alt="pnb logo" />
+            <img src="logo.png" alt="pnb logo" role="presentation" />
         </StyledHome>
         <PhotoBox />
     </>

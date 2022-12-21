@@ -13,6 +13,7 @@ const NavBar = (props) => {
                     src="logo.png"
                     alt="pnb logo"
                     style={{ width: "60px", margin: "auto auto auto 35px" }}
+                    role="presentation"
                 />
                 <NavLinks>
                     <Link to="/">HOME</Link>
