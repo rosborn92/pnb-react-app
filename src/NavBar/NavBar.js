@@ -11,7 +11,7 @@ const NavBar = (props) => {
             <NavContainer>
                 <img
                     src="logo.png"
-                    alt="pnb logo"
+                    alt=""
                     style={{ width: "60px", margin: "auto auto auto 35px" }}
                 />
                 <NavLinks>

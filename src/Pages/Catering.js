@@ -18,9 +18,8 @@ const Catering = () => (
                 <div className="phone">
                     <img
                         src="phoneIcon.png"
-                        alt="phone icon"
+                        alt=""
                         style={{ marginRight: "10px" }}
-                        role="presentation"
                     />
                     <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                 </div>
@@ -31,7 +30,7 @@ const Catering = () => (
                     catered event may incur an additional fee.
                 </span>
             </div>
-            <h3> CATERED BURGER PARTY </h3>
+            <h2> CATERED BURGER PARTY </h2>
             <div className="info2">
                 <span>$37.00 / person</span>
                 <span>50 person minimum</span>
@@ -39,13 +38,13 @@ const Catering = () => (
             <div className="box">
                 <div className="innerBox">
                     <div className="wideColumn">
-                        <h5 className="borderedFull" style={{ marginTop: "0" }}>
+                        <h3 className="borderedFull" style={{ marginTop: "0" }}>
                             I. Cheeseburgers
-                        </h5>
+                        </h3>
                         <ul>
                             <li>Vegetarian & Turkey available upon request</li>
                         </ul>
-                        <h5 className="borderedFull">II. 3 Side Dishes:</h5>
+                        <h3 className="borderedFull">II. 3 Side Dishes:</h3>
                         <ul>
                             <li>French Fries</li>
                             <li>Potato Salad</li>
@@ -55,13 +54,13 @@ const Catering = () => (
                             <li>Cole Slaw</li>
                             <li>Chili</li>
                         </ul>
-                        <h5 className="borderedFull">III. Dessert</h5>
+                        <h3 className="borderedFull">III. Dessert</h3>
                         <ul>
                             <li>Assorted Pies & Vanilla Ice Cream</li>
                         </ul>
-                        <h5 className="borderedFull">
+                        <strong className="borderedFull" style={{}}>
                             Also available for additional fee:
-                        </h5>
+                        </strong>
                         <ul>
                             <li>Onion Rings</li>
                             <li>Extra Side Dishes</li>
@@ -92,7 +91,7 @@ const Catering = () => (
             <div className="imgSection">
                 <img src="catering.jpg" alt="PNB catered event display" />
             </div>
-            <h3> CATERED BBQ PARTY </h3>
+            <h2> CATERED BBQ PARTY </h2>
             <div className="info2">
                 <span>$47.00 / person</span>
                 <span>50 person minimum</span>
@@ -100,15 +99,15 @@ const Catering = () => (
             <div className="box">
                 <div className="innerBox">
                     <div className="wideColumn">
-                        <h5 className="borderedFull" style={{ marginTop: "0" }}>
+                        <h3 className="borderedFull" style={{ marginTop: "0" }}>
                             I. Choice of 2 Meats:
-                        </h5>
+                        </h3>
                         <ul>
                             <li>BBQ Chicken</li>
                             <li>Roast Tri Tip</li>
                             <li>Pulled Pork</li>
                         </ul>
-                        <h5 className="borderedFull">II. 3 Side Dishes:</h5>
+                        <h3 className="borderedFull">II. 3 Side Dishes:</h3>
                         <ul>
                             <li>Blended Rice Pilaf</li>
                             <li>Fruited Champagne Rice</li>
@@ -126,8 +125,8 @@ const Catering = () => (
                             <li>Cole Slaw</li>
                             <li>Grilled Fresh Vegetables</li>
                         </ul>
-                        <h5 className="borderedFull">III. Rolls & Butter</h5>
-                        <h5 className="borderedFull">IV. Dessert</h5>
+                        <h3 className="borderedFull">III. Rolls & Butter</h3>
+                        <h3 className="borderedFull">IV. Dessert</h3>
                         <ul>
                             <li>Assorted Pies & Vanilla Ice Cream</li>
                         </ul>
@@ -155,7 +154,7 @@ const Catering = () => (
                     alt="PNB catered event dessert display"
                 />
             </div>
-            <h3> APPETIZERS </h3>
+            <h2> APPETIZERS </h2>
             <span> prices vary </span>
             <div className="box">
                 <div className="innerBox">

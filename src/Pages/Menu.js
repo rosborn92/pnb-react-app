@@ -10,6 +10,9 @@ const Menu = () => (
     <PageStyle>
       <h1>MENU</h1>
       <div className="menuContainer">
+        <a href="https://pnbmenu.tiiny.site/" title="accessible menu PDF" target="_blank" rel="noopener noreferrer">
+          Click to open an accessible PDF of our menu
+        </a>
         <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
         <StyledMenu src="lunchMenu.png" alt="PNB Lunch & Dinner Menu" />
         <StyledMenu src="kidsBreakfast.png" alt="Kids Breakfast Menu" />
@@ -51,4 +54,12 @@ const StyledMenu = styled.img`
   margin: 30px auto;
   width: 95%;
   background-color: #beccda !important;
+`;
+
+const StyledIframe = styled.iframe`
+  max-width: 800px;
+  margin: 30px auto;
+  width: 95%;
+  height: fit-content;
+  // background-color: #beccda !important;
 `;

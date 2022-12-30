@@ -121,13 +121,8 @@ const PageStyle = styled.div`
     margin: auto;
     background-color: #eff2f6;
   }
-  h3 {
-    font-size: 26px;
-    border-bottom: 2px solid;
-    margin: 30px auto;
-    width: fit-content;
-  }
-  h5 {
+
+  h5 h2 h3 {
     font-size: 18px;
     text-align: center;
     &.borderedFull {
@@ -136,6 +131,13 @@ const PageStyle = styled.div`
       margin: 20px auto;
     }
   }
+
+  strong {
+    font-size: 16px;
+    text-align: center;
+    margin: 8px 0;
+  }
+
   img {
     width: 100%;
     &.menus {

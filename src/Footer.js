@@ -6,7 +6,7 @@ const Footer = () => {
         <StyledFooter>
             <div className="section">
                 <div className="column2">
-                    <img className="logo" src="logo.png" alt="pnb logo" />
+                    <img className="logo" src="logo.png" alt="" />
                     <div className="links">
                         <InstaLink />
                         <TwitterLink />
@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="phone">
                         <img
                             src="phoneIcon.png"
-                            alt="phone icon"
+                            alt=""
                             style={{ marginRight: "10px" }}
                         />
                         <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>

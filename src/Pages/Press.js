@@ -16,33 +16,37 @@ const Press = () => (
       <div className="cardBox" >
         <div className="videoCard">
           <iframe
-            title="Campus Eats"
-            src="https://www.youtube.com/embed/GgF0IuNtcWo"
+            title="Campus Eats Reviews Pie N Burger"
+            src="https://www.youtube.com/embed/GgF0IuNtcWo?cc_load_policy=1"
             alt="Youtube video by Campus Eats reviewing PNB experience"
+            allowFullScreen
           >
           </iframe>
         </div>
         <div className="videoCard">
           <iframe
             title="Food Insider - The Best Burger in LA"
-            src="https://www.youtube.com/embed/diJpBp6cCaU"
+            src="https://www.youtube.com/embed/diJpBp6cCaU?cc_load_policy=1"
             alt="Youtube video by Food Insider titled 'The Best Burger in LA'"
+            allowFullScreen
           >
           </iframe>
         </div>
         <div className="videoCard">
           <iframe
             title="Worth It $5 Pie Vs. $250 Pie"
-            src="https://www.youtube.com/embed/tqPub3p3k5E"
+            src="https://www.youtube.com/embed/tqPub3p3k5E?cc_load_policy=1"
             alt="Youtube video by Worth It comparing pies at different price points"
+            allowFullScreen
           >
           </iframe>
         </div>
         <div className="videoCard">
           <iframe
             title="Keith Eats Every Pie"
-            src="https://www.youtube.com/embed/fsNhU6H-16I"
+            src="https://www.youtube.com/embed/fsNhU6H-16I?cc_load_policy=1"
             alt="Youtube video by Youtube star Keith titled 'Keith Eats Every Pie'"
+            allowFullScreen
           >
           </iframe>
         </div>

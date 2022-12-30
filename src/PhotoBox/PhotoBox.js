@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import ReactImageAppear from "react-image-appear";
 import StyledPhotoBox from "./PhotoBox.styles";
 
 const PhotoBox = () => (
@@ -46,14 +45,7 @@ const PhotoBox = () => (
 
 export default PhotoBox;
 
-// const StyledImg = styled(ReactImageAppear)`
 const StyledImg = styled.img`
-    // img {
-    //     width: 100%;
-    //     height: 100%;
-    //     object-fit: cover;
-    //     z-index: -1;
-    // }
     width: 100%;
     height: 100%;
     object-fit: cover;

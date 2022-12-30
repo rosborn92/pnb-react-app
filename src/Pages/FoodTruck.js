@@ -27,9 +27,8 @@ const FoodTruck = () => (
                 <div className="phone">
                     <img
                         src="phoneIcon.png"
-                        alt="phone icon"
+                        alt=""
                         style={{ marginRight: "10px" }}
-                        role="presentation"
                     />
                     <a href="tel:+16267951123" aria-label="phone number - click to call">(626)795-1123</a>
                 </div>
@@ -75,9 +74,9 @@ const FoodTruck = () => (
                         </div>
                     </div>
                     <div className="wideColumnRt">
-                        <h5 className="borderedFull" style={{ marginTop: "0" }}>
+                        <h2 className="borderedFull" style={{ marginTop: "0" }}>
                             Burgers & Hot Dogs
-                        </h5>
+                        </h2>
                         <ol>
                             {/* <div className="text"> */}
                             <li>Burger (beef or vegetarian)</li>
@@ -102,7 +101,7 @@ const FoodTruck = () => (
                                 <span className="altItem">.... $15.00</span> */}
                             {/* </div> */}
                         </ol>
-                        <h5 className="borderedFull">Sandwiches</h5>
+                        <h2 className="borderedFull">Sandwiches</h2>
                         <ol>
                             {/* <div className="text"> */}
                             <li>Patty Melt</li>
@@ -133,7 +132,7 @@ const FoodTruck = () => (
                                 <span className="altItem">.... $14.00</span> */}
                             {/* </div> */}
                         </ol>
-                        <h5 className="borderedFull">Sides</h5>
+                        <h2 className="borderedFull">Sides</h2>
                         <ol>
                             {/* <div className="text"> */}
                             <li>French Fries</li>
@@ -150,7 +149,7 @@ const FoodTruck = () => (
                                 <span className="altItem">..... $5.00</span> */}
                             {/* </div> */}
                         </ol>
-                        <h5 className="borderedFull">Drinks & Desserts</h5>
+                        <h2 className="borderedFull">Drinks & Desserts</h2>
                         <ol>
                             {/* <div className="text"> */}
                                 <li>Drinks</li>

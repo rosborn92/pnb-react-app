@@ -11,7 +11,7 @@ const Pies = () => (
       <div className="box">
       <div className="innerBox">
         <div className="wideColumn">
-          <h5 className="borderedFull"> CLASSICS </h5>
+          <h2 className="borderedFull"> CLASSICS </h2>
           <ul>
             <li>Apple</li>
             <li>Cherry</li>
@@ -25,7 +25,7 @@ const Pies = () => (
             <li>Baked Peach</li>
             <li>Mince (seasonal)</li>
           </ul>
-          <h5 className="borderedFull"> MERINGUES </h5>
+          <h2 className="borderedFull"> MERINGUES </h2>
           <ul>
             <li>Banana</li>
             <li>Coconut</li>
@@ -34,13 +34,13 @@ const Pies = () => (
             <li>Peanut Butter</li>
             <li>Butterscotch</li>
           </ul>
-          <h5 className="borderedFull">SEASONAL FRESH FRUITS</h5>
+          <h2 className="borderedFull">SEASONAL FRESH FRUITS</h2>
           <ul>
             <li>Strawberry</li>
             <li>Peach</li>
             <li>Blackberry</li>
           </ul>
-          <h5 className="borderedFull">FRESH CAKES</h5>
+          <h2 className="borderedFull">FRESH CAKES</h2>
           <ul>
             <li>Chocolate</li>
             <li>Carrot</li>
