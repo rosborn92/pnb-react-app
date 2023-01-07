@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Jumbotron from "../Jumbotron.styles";
-// import ReactImageAppear from "react-image-appear";
 
 const Menu = () => (
   <>
@@ -10,8 +9,8 @@ const Menu = () => (
     <PageStyle>
       <h1>MENU</h1>
       <div className="menuContainer">
-        <a href="https://pnbmenu.tiiny.site/" title="accessible menu PDF" target="_blank" rel="noopener noreferrer">
-          Click to open an accessible PDF of our menu
+        <a href="https://drive.google.com/uc?export=download&id=1Dzbz7F5uzce9TryrM_eK4gkb8CVst1r8" title="accessible menu PDF" target="_blank" rel="noreferrer">
+          Click to download an accessible PDF of our menu
         </a>
         <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
         <StyledMenu src="lunchMenu.png" alt="PNB Lunch & Dinner Menu" />
@@ -48,7 +47,6 @@ const PageStyle = styled.div`
   }
 `;
 
-// const StyledMenu = styled(ReactImageAppear)`
 const StyledMenu = styled.img`
   max-width: 800px;
   margin: 30px auto;
@@ -56,10 +54,3 @@ const StyledMenu = styled.img`
   background-color: #beccda !important;
 `;
 
-const StyledIframe = styled.iframe`
-  max-width: 800px;
-  margin: 30px auto;
-  width: 95%;
-  height: fit-content;
-  // background-color: #beccda !important;
-`;
