@@ -9,7 +9,8 @@ const Menu = () => (
     <PageStyle>
       <h1>MENU</h1>
       <div className="menuContainer">
-        <a href="https://drive.google.com/uc?export=download&id=1Dzbz7F5uzce9TryrM_eK4gkb8CVst1r8" title="accessible menu PDF" target="_blank" rel="noreferrer">
+        
+        <a href="https://drive.google.com/uc?export=download&id=1KFVHSW7Xcvu97nzXrT8yIlVnDwkBGo0k" title="accessible menu PDF" target="_blank" rel="noreferrer">
           Click to download an accessible PDF of our menu
         </a>
         <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
