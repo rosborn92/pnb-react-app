@@ -3,7 +3,7 @@ import PageStyle from "../PageStyle.styles";
 import Jumbotron from "../Jumbotron.styles";
 
 const FoodTruck = () => (
-    <>
+    <main>
         <title>Food Truck Page</title>
         <Jumbotron src="ftBanner.jpg" alt="food truck" />
         <PageStyle>
@@ -171,7 +171,7 @@ const FoodTruck = () => (
                 </div>
             </div>
         </PageStyle>
-    </>
+    </main>
 );
 
 export default FoodTruck;

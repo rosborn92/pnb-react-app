@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Jumbotron from "../Jumbotron.styles";
 
 const Menu = () => (
-  <>
+  <main>
     <title>Menu Page - Call for more details</title>
     <Jumbotron src="backcounter.jpg" alt="picture of pie n burger menu and pie case"/>
     <PageStyle>
@@ -19,7 +19,7 @@ const Menu = () => (
         <StyledMenu src="kidsLunch.png" alt="Kids Lunch & Dinner Menu" />
       </div>
     </PageStyle>
-  </>
+  </main>
 );
 
 export default Menu;

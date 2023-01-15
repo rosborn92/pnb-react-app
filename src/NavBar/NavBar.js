@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
@@ -15,13 +15,13 @@ const NavBar = (props) => {
                     style={{ width: "60px", margin: "auto auto auto 35px" }}
                 />
                 <NavLinks>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="/About">ABOUT</Link></li>
-                    <li><Link to="/Menu">MENU</Link></li>
-                    <li><Link to="/Pies">PIES</Link></li>
-                    <li><Link to="/Press">PRESS</Link></li>
-                    <li><Link to="/Catering">CATERING</Link></li>
-                    <li><Link to="/FoodTruck">FOOD TRUCK</Link></li>
+                    <li><NavLink exact to="/">HOME</NavLink></li>
+                    <li><NavLink to="/About">ABOUT</NavLink></li>
+                    <li><NavLink to="/Menu">MENU</NavLink></li>
+                    <li><NavLink to="/Pies">PIES</NavLink></li>
+                    <li><NavLink to="/Press">PRESS</NavLink></li>
+                    <li><NavLink to="/Catering">CATERING</NavLink></li>
+                    <li><NavLink to="/FoodTruck">FOOD TRUCK</NavLink></li>
                 </NavLinks>
                 <BurgerWrapper>
                     <BurgerMenu
@@ -51,12 +51,9 @@ const NavContainer = styled.nav`
     z-index: 1;
 `;
 
-// const NavLinks = styled.div`
 const NavLinks = styled.ul`
     margin: auto 0 auto auto;
 
-    // new:
-    // width: 100%;
     display: flex;
 
     li {
@@ -83,6 +80,11 @@ const NavLinks = styled.ul`
                 /* for displays larger than 768px */
                 display: none;
             }
+        } 
+
+        & .active {
+            color: #fdcb6e;
+                background: #053a92;
         }
     }
 

@@ -3,7 +3,7 @@ import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
 
 const About = () => (
-  <>
+  <main>
     <title>About Page - History</title>
     <Jumbotron src="outsideShort.jpg" alt="Street View of PNB" />
     <PageStyle>
@@ -45,7 +45,7 @@ const About = () => (
         </div>
       </div>
     </PageStyle>
-  </>
+  </main>
 )
 
 export default About

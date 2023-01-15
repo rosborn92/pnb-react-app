@@ -25,9 +25,9 @@ class Pnb extends React.Component {
     }
   }
 
-    handleNav = () => {
-      this.setState({navOpen: !this.state.navOpen})
-    }
+  handleNav = () => {
+    this.setState({navOpen: !this.state.navOpen})
+  }
 
   render () {
 

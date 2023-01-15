@@ -3,7 +3,7 @@ import PageStyle from "../PageStyle.styles";
 import Jumbotron from "../Jumbotron.styles";
 
 const Catering = () => (
-    <>
+    <main>
         <title>Catering Page</title>
         <Jumbotron src="burgerNfriesShort.jpg" alt="Plated Burger and Fries" />
         <PageStyle>
@@ -251,7 +251,7 @@ const Catering = () => (
                 </div>
             </div>
         </PageStyle>
-    </>
+    </main>
 );
 
 export default Catering;

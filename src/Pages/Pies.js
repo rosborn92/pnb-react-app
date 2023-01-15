@@ -3,7 +3,7 @@ import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
 
 const Pies = () => (
-  <>
+  <main>
     <title>Pies</title>
     <Jumbotron src="pies3.jpg" alt="Row of Plated Meringue Pies" />
     <PageStyle>
@@ -64,7 +64,7 @@ const Pies = () => (
         </div>
       </div>
     </PageStyle>
-  </>
+  </main>
 )
 
 export default Pies

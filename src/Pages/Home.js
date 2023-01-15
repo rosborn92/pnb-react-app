@@ -3,14 +3,14 @@ import styled from "styled-components";
 import PhotoBox from "../PhotoBox/PhotoBox";
 
 const Home = () => (
-    <>
+    <main>
         <title>Home Page</title>
         <StyledHome>
         <h1>Home</h1>
             <img src="logo.png" alt="" />
         </StyledHome>
         <PhotoBox />
-    </>
+    </main>
 );
 
 export default Home;

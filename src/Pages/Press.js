@@ -3,7 +3,7 @@ import PageStyle from '../PageStyle.styles'
 import Jumbotron from '../Jumbotron.styles'
 
 const Press = () => (
-  <>
+  <main>
     <title>Press - some videos from fans</title>
     <Jumbotron src="kitchen2.jpg" alt="View of PNB kitchen" />
     <PageStyle>
@@ -52,7 +52,7 @@ const Press = () => (
         </div>
       </div>
     </PageStyle>
-  </>
+  </main>
 )
 
 export default Press

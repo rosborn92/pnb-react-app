@@ -8,41 +8,13 @@ const CollapseMenu = (props) => {
             <CollapseWrapper
                 id="menuItems"
             >
-                <li>
-                    <Link onClick={props.handleNav} to="/">
-                        HOME
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/About">
-                        ABOUT
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/Menu">
-                        MENU
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/Pies">
-                        PIES
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/Press">
-                        PRESS
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/Catering">
-                        CATERING
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={props.handleNav} to="/FoodTruck">
-                        FOOD TRUCK
-                    </Link>
-                </li>
+                <li><Link onClick={props.handleNav} to="/">HOME</Link></li>
+                <li><Link onClick={props.handleNav} to="/About">ABOUT</Link></li>
+                <li><Link onClick={props.handleNav} to="/Menu">MENU</Link></li>
+                <li><Link onClick={props.handleNav} to="/Pies">PIES</Link></li>
+                <li><Link onClick={props.handleNav} to="/Press">PRESS</Link></li>
+                <li><Link onClick={props.handleNav} to="/Catering">CATERING</Link></li>
+                <li><Link onClick={props.handleNav} to="/FoodTruck">FOOD TRUCK</Link></li>
             </CollapseWrapper>
         );
     }
