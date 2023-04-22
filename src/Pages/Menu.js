@@ -8,9 +8,8 @@ const Menu = () => (
     <Jumbotron src="backcounter.jpg" alt="picture of pie n burger menu and pie case"/>
     <PageStyle>
       <h1>MENU</h1>
-      <div className="menuContainer">
-        
-        <a href="https://drive.google.com/uc?export=download&id=1KFVHSW7Xcvu97nzXrT8yIlVnDwkBGo0k" title="accessible menu PDF" target="_blank" rel="noreferrer">
+      <div className="menuContainer">        
+        <a href="https://drive.google.com/uc?export=download&id=1Rxlis_i5X6vk0Hy-Y5Ll1VykZHLDUM3E" title="accessible menu PDF" target="_blank" rel="noreferrer">
           Click to download an accessible PDF of our menu
         </a>
         <StyledMenu src="breakfastMenu.png" alt="PNB Breakfast Menu" />
